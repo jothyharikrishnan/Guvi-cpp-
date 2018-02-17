@@ -17,7 +17,11 @@ char n;
 		cout<<"\n"<<n<<" Is Vowels.";
 		
 	}
-	else
+	else if(n>=1 && n<=100)
+	{
+		cout<<"\nInvalid Input.";
+	}
+	else 
 	{
 		cout<<"\n"<<n<<" Is Const.";
 }
