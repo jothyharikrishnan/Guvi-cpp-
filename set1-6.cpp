@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 int a;
-cout<<"Enter the num:";
+cout<<"Enter the Year:";
 cin>>a;
 if(a%4==0)
 {
