@@ -6,7 +6,7 @@ int main()
 {
     int i,n,sum=0;
     
-    cout<<"Enter The num:";
+    cout<<"Enter The Natural num:";
     cin>>n;
     for(i=1;i<=n;i++)
     {
