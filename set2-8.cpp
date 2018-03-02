@@ -3,17 +3,17 @@ using namespace std;
 
 int main()
 {
-	int n,m,digit1,digit2,digit3;
+	int n,m,d1,d2,d3;
 	cout<<"ENTER";
 	cin>>n>>m;
 
-	for(int i=n;i<m;i++)
+	for(int i=n;i<=m;i++)
 	{
-		digit1=i/100;
-		digit2=i/10 - digit1*10;
-		digit3=i%10;
+		d1=i/100;
+		d2=i/10 - d1*10;
+		d3=i%10;
 
-		if(digit1*digit1*digit1 + digit2*digit2*digit2 + digit3*digit3*digit3 == i)
+		if(d1*d1*d1 + d2*d2*d2 + d3*d3*d3 == i)
 			cout<<i<<endl;
 	}
 
