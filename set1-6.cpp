@@ -7,7 +7,7 @@ int main()
 int a;
 cout<<"Enter the Year:";
 cin>>a;
-if(a%4==0)
+if(a%400==0)
 {
     cout<<"\nLeapYear";
 }
