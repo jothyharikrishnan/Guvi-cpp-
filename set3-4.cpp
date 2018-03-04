@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {	
-	int m[200];
+	int a[200];
 	int n,i,j;
 	int temp;
 	
@@ -12,23 +12,23 @@ int main()
 
 	for(i=0;i<n;i++)
 	{
-		cin>>m[i];
+		cin>>a[i];
 	}
 
 	for(i=0;i<n;i++)
 	{		
 		for(j=i+1;j<n;j++)
 		{
-			if(m[i]>m[j])
+			if(a[i]>a[j])
 			{
-				temp  =m[i];
-				m[i]=m[j];
-				m[j]=temp;
+				temp  =a[i];
+				a[i]=a[j];
+				a[j]=temp;
 			}
 		}
 	}
 	for(i=0;i<n;i++)
-		cout<<m[i]<<"\t";
+		cout<<a[i]<<"\t";
 	return 0;
 	
 }
