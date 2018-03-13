@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int n;
-    int m;
+    int a;
+    int b;
     cout<<"ENTER 2 NUM:";
-    cin>>n>>m;
-    n = n ^ m;
-    m = n ^ m;
-    n = n ^ m;
-    cout<<n<<" "<<m;
+    cin>>a>>b;
+    a = a ^ b;
+    b = a ^ b;
+    a = a ^ b;
+    cout<<a<<" "<<b;
     return 0;
 }
