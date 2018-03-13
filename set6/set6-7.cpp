@@ -4,13 +4,13 @@ using namespace std;
 
 int main()
 {
-    int n,m,temp;;
+    int a,b,temp;;
     cout<<"Enter 2 Num:";
-    cin>>n>>m;
-    temp=n;
-    n=m;
-    m=temp;
-    cout<<n<<" "<<m;
+    cin>>a>>b;
+    temp=a;
+    a=b;
+    b=temp;
+    cout<<a<<" "<<b;
     
     return 0;
 }
