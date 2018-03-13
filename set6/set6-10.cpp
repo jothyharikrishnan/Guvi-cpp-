@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-    int n,i,f1,f2,f3;
+    int a,i,f1,f2,f3;
     f1=f2=1;
     
     cout<<"Enter a number:"<<endl;
-    cin>>n;
+    cin>>a;
     cout<<"The fibonacci series of "<<n<<" numbers is:";
     cout<<f1<<" "<<f2;
     for (i=3;i<=n;i++)
