@@ -9,9 +9,9 @@ int main()
     
     cout<<"Enter a number:"<<endl;
     cin>>a;
-    cout<<"The fibonacci series of "<<n<<" numbers is:";
+    cout<<"The fibonacci series of "<<a<<" numbers is:";
     cout<<f1<<" "<<f2;
-    for (i=3;i<=n;i++)
+    for (i=3;i<=a;i++)
     {
         f3=f1+f2;
         cout<<" "<<f3;
