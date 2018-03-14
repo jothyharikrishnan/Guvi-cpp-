@@ -6,7 +6,7 @@ int main()
 	int n,i;
 	cout<<"Enter a number:";
 	cin>>n;
-	for(i=10;i<100;i+=10)
+	for(i=10;i<1000;i+=10)
 	{
 	    if(n<i)
 	    {
