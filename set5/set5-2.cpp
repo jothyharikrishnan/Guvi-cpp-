@@ -5,7 +5,6 @@ int main()
 {
     string s1;
     string s2;
-    int set=0;
     cout<<"Enter The String1:"<<endl;
     cin>>s1;
     cout<<"Enter The String2:"<<endl;
