@@ -1,14 +1,14 @@
 #include <iostream>
-
+#include<cmath>
 using namespace std;
 
 int main()
 {
-    float a;
+    float a,res;
     int i;
     cout<<"Enter a decimal(only 1 decimal place) number:";
     cin>>a;
-    i=a;
-    cout<<i+1;
+    res=round(a);
+    cout<<res;
     return 0;
 }
